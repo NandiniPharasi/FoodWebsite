@@ -1,0 +1,260 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 246, 246);
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header {
+    /* border: 2px solid blueviolet; */
+    background-color: rgb(197, 124, 35);
+    background-image: url('bgg.jpg');
+    display: flexbox;
+
+}
+.emp{
+    height: 5rem;
+}
+
+
+nav {
+
+    /* border: 4px solid rgb(25, 166, 131); */
+    background-color: rgba(13, 12, 12, 0.783);
+    display: flex;
+   width: 100%;
+   position: fixed;
+   height: 5rem;
+
+
+
+
+}
+.tag{
+    width: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+
+}
+
+p {
+    font-size: larger;
+    color: rgb(226, 129, 11);
+    text-align: center;
+}
+
+div.navbar {
+    /* border: 4px solid rgb(52, 202, 41); */
+    margin-left: 54px;
+    margin-right: 54px;
+    padding: 6px;
+    border-radius: 2px;
+
+}
+
+.navbar:hover {
+    background-color: rgba(83, 193, 23, 0.426);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.container {
+    /* border: 2px solid rgb(9, 221, 200); */
+    display: flex;
+    margin: auto;
+    padding: 18px;
+    width: 70%;
+    
+}
+
+h1 {
+    align-self: center;
+    margin-left: 15px;
+    color: rgb(216, 31, 31);
+
+}
+
+
+nav img {
+    border-radius: 14px;
+    width: 65px;
+    height: 55px;
+    margin: 14px;
+
+}
+
+div.box {
+    /* border: 4px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    color: black;
+    /* height: 300px; */
+    margin: auto;
+    padding: 16px;
+    
+}
+
+
+button {
+    color: white;
+    background-color: rgba(37, 201, 19, 0.539);
+    width: 78px;
+    height: 40px;
+    border-radius: 3px;
+    border-color: black;
+    width: 50%;
+
+
+
+}
+
+button:hover {
+    background-color: rgba(186, 51, 34, 0.472);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.cent {
+
+    display: flex;
+    /* border: 2px solid hotpink; */
+    flex-flow: row;
+
+
+}
+
+
+
+.order {
+
+    color: rgb(201, 253, 12);
+
+    /* border: 3px solid goldenrod; */
+    margin: 16px;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 35px;
+
+
+}
+
+#or1 {
+    background-image: url('vegi.jpg');
+    background-size: cover;
+}
+
+#or2 {
+    background-image: url(' non veg.jpg');
+    background-size: cover;
+}
+
+#or3 {
+    background-image: url('desserty.jpg');
+    background-size: cover;
+}
+
+#or4 {
+    background-image: url(' diet.jpg');
+    background-size: cover;
+    border-radius: 4px;
+}
+
+#part1 {
+    background-image: url('s2.jfif');
+    background-size: cover;
+
+}
+
+#part2 {
+    background-image: url('fhub.png');
+    background-size: cover;
+    border-radius: 4px;
+
+}
+
+#part3 {
+    background-image: url('z.png');
+    background-size: cover;
+    border-radius: 4px;
+}
+
+#part4 {
+    background-image: url('fp.png');
+    background-size: cover;
+    border-radius: 4px;
+
+}
+
+#part5 {
+    background-image: url('eat.jpg');
+    background-size: cover;
+    border-radius: 4px;
+
+}
+
+
+
+
+
+.partner {
+    /* border: 2px solid rgb(140, 236, 7); */
+    display: flex;
+    height: 96px;
+    width: 196px;
+
+}
+
+.sec {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    padding: 26px;
+
+}
+
+.ob {
+    /* border: 2px solid rgb(220, 13, 127); */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.443);
+
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+
+    /* margin-left: 284px; */
+    padding-top: 14px;
+    margin: auto;
+}
+
+.myForm {
+
+    /* border: 2px solid rgb(219, 146, 11); */
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 12px 25px;
+    padding: 13px 20px;
+
+
+}
+
+.myForm input {
+    border-radius: 10px;
+    height: 55px;
+    width: 50%;
+    color: black;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url('bg2.jpg');
+}
